@@ -7,6 +7,6 @@ function appendToDisplay(value) {
   }
 
   function calculateResult() {
-    var result = eval(document.getElementById('display').value);
+   let result = eval(document.getElementById('display').value);
     document.getElementById('display').value = result;
   }
